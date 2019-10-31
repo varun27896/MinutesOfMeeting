@@ -1,0 +1,9 @@
+{
+    "auth": {
+        "testmeetmin9c938ba6": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation",
+            "dependsOn": []
+        }
+    }
+}
