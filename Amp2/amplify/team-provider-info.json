@@ -1,0 +1,19 @@
+{
+    "ios": {
+        "awscloudformation": {
+            "AuthRoleName": "amp2-ios-20191006193423-authRole",
+            "UnauthRoleArn": "arn:aws:iam::696925498914:role/amp2-ios-20191006193423-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::696925498914:role/amp2-ios-20191006193423-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amp2-ios-20191006193423-deployment",
+            "UnauthRoleName": "amp2-ios-20191006193423-unauthRole",
+            "StackName": "amp2-ios-20191006193423",
+            "StackId": "arn:aws:cloudformation:us-east-2:696925498914:stack/amp2-ios-20191006193423/d4d28860-e891-11e9-8ae7-02ae28e83a86"
+        },
+        "categories": {
+            "auth": {
+                "amp2dbb1c6d7": {}
+            }
+        }
+    }
+}
