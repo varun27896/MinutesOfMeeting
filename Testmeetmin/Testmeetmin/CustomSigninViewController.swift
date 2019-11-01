@@ -35,7 +35,7 @@ class CustomSigninViewController: UIViewController {
                 switch (signInResult.signInState) {
                 case .signedIn:
                     print("User is signed in.")
-                    self.performSegue(withIdentifier: "SignIn2Home", sender: self)
+                    self.RedirectSignIntoHome()
                 case .smsMFA:
                     print("SMS message sent to \(signInResult.codeDetails!.destination!)")
                 default:
@@ -43,6 +43,12 @@ class CustomSigninViewController: UIViewController {
                 }
             }
         }
+    }
+    func RedirectSignIntoHome(){
+        
+    DispatchQueue.main.async {
+    self.performSegue(withIdentifier: "SignIn2Home", sender: self)
+    }
     }
 
 }
