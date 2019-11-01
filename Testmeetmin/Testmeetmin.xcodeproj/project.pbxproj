@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AE3ED342364BF5B00B50C85 /* CreateMeetingMinutesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3ED332364BF5B00B50C85 /* CreateMeetingMinutesTableVC.swift */; };
 		3AE3ED362364BF8000B50C85 /* ViewMeetingMinutesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3ED352364BF8000B50C85 /* ViewMeetingMinutesTableVC.swift */; };
 		8B72FA38235F8DD900BB24AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72FA37235F8DD900BB24AF /* AppDelegate.swift */; };
 		8B72FA3A235F8DD900BB24AF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B72FA39235F8DD900BB24AF /* SceneDelegate.swift */; };
@@ -24,7 +23,6 @@
 
 /* Begin PBXFileReference section */
 		25ACB70A8EEDF83B085CB56E /* Pods-Testmeetmin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Testmeetmin.debug.xcconfig"; path = "Target Support Files/Pods-Testmeetmin/Pods-Testmeetmin.debug.xcconfig"; sourceTree = "<group>"; };
-		3AE3ED332364BF5B00B50C85 /* CreateMeetingMinutesTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateMeetingMinutesTableVC.swift; sourceTree = "<group>"; };
 		3AE3ED352364BF8000B50C85 /* ViewMeetingMinutesTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewMeetingMinutesTableVC.swift; sourceTree = "<group>"; };
 		8B72FA34235F8DD900BB24AF /* Testmeetmin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Testmeetmin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B72FA37235F8DD900BB24AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -94,7 +92,6 @@
 				8B72FA4D235F95A300BB24AF /* CustomSigninViewController.swift */,
 				8B72FA4F235FA4D600BB24AF /* CustomSignUpTableTableViewController.swift */,
 				8B72FA51235FAB3100BB24AF /* VerifyCodeViewController.swift */,
-				3AE3ED332364BF5B00B50C85 /* CreateMeetingMinutesTableVC.swift */,
 				3AE3ED352364BF8000B50C85 /* ViewMeetingMinutesTableVC.swift */,
 			);
 			path = Testmeetmin;
@@ -228,7 +225,6 @@
 				8B72FA50235FA4D600BB24AF /* CustomSignUpTableTableViewController.swift in Sources */,
 				8B72FA3C235F8DD900BB24AF /* ViewController.swift in Sources */,
 				8B72FA38235F8DD900BB24AF /* AppDelegate.swift in Sources */,
-				3AE3ED342364BF5B00B50C85 /* CreateMeetingMinutesTableVC.swift in Sources */,
 				3AE3ED362364BF8000B50C85 /* ViewMeetingMinutesTableVC.swift in Sources */,
 				8B72FA4E235F95A300BB24AF /* CustomSigninViewController.swift in Sources */,
 				8B72FA52235FAB3100BB24AF /* VerifyCodeViewController.swift in Sources */,
