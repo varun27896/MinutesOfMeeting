@@ -1,0 +1,19 @@
+{
+    "ios": {
+        "awscloudformation": {
+            "AuthRoleName": "testmeetmin-ios-20191022143652-authRole",
+            "UnauthRoleArn": "arn:aws:iam::696925498914:role/testmeetmin-ios-20191022143652-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::696925498914:role/testmeetmin-ios-20191022143652-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "testmeetmin-ios-20191022143652-deployment",
+            "UnauthRoleName": "testmeetmin-ios-20191022143652-unauthRole",
+            "StackName": "testmeetmin-ios-20191022143652",
+            "StackId": "arn:aws:cloudformation:us-east-2:696925498914:stack/testmeetmin-ios-20191022143652/4c92d8f0-f503-11e9-91c6-02278d0d93fc"
+        },
+        "categories": {
+            "auth": {
+                "testmeetmin9c938ba6": {}
+            }
+        }
+    }
+}
