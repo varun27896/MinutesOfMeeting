@@ -51,5 +51,16 @@ class CustomSigninViewController: UIViewController {
     }
     }
 
+    @IBAction func forgotPasswordBtnTapped(_ sender: Any) {
+        self.RedirectSignIntoForgotPassword()
+        
+    }
+    func RedirectSignIntoForgotPassword(){
+        DispatchQueue.main.async {
+        self.performSegue(withIdentifier: "SignIntoForgotPassword", sender: self)
+        }
+    }
+    
+   
 }
 

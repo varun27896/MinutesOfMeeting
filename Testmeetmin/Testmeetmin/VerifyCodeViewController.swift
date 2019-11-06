@@ -30,6 +30,7 @@ class VerifyCodeViewController: UIViewController {
                 switch(signUpResult.signUpConfirmationState) {
                 case .confirmed:
                     print("User is signed up and confirmed.")
+                    self.confirmcode()
                 case .unconfirmed:
                     print("User is not confirmed and needs verification via \(signUpResult.codeDeliveryDetails!.deliveryMedium) sent at \(signUpResult.codeDeliveryDetails!.destination!)")
                 case .unknown:
@@ -40,5 +41,8 @@ class VerifyCodeViewController: UIViewController {
             }
         }
     }
-    
+    func confirmcode()
+    {
+        performSegue(withIdentifier: "Verify2SignIn", sender: self)
+    }
 }
