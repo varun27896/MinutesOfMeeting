@@ -1,0 +1,7 @@
+type MM @model {
+  agenda: String!
+  attendees: [String!]
+  details: String
+  deadline: String
+  email: [String!]
+}
